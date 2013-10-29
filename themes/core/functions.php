@@ -19,7 +19,7 @@
  * Add static entries in the template file. 
  */
 $ly->data['header'] = '<h1>Header: Lydia</h1>';
-$ly->data['main']   = '<p>Main: Now with a theme engine, Not much more to report for now.</p>';
+// $ly->data['main']   = '<p>Main: Now with a theme engine, Not much more to report for now.</p>';
 $ly->data['footer'] = <<<EOD
 <p>Footer: &copy; Lydia by Mikael Roos (mos@dbwebb.se)</p>
 

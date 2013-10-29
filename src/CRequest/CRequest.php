@@ -54,7 +54,7 @@
        if(substr($query, 0, 1) === '?' && isset($_GET['q'])) {
          $query = trim($_GET['q']);
        }
-           $splits = explode('/', trim($query, '/'));
+           $splits = explode('/', $query);
  //          $query = substr($_SERVER['REQUEST_URI'], strlen(rtrim(dirname($_SERVER['SCRIPT_NAME']), '/')));
  //          $splits = explode('/', trim($query, '/'));
 

@@ -19,6 +19,11 @@
     */
     $ly->config['url_type'] = 1;
 
+    /**
+    * Set a base_url to use another than the default calculated
+    */
+    $ly->config['base_url'] = null;
+
     /*
     * Define session name
     */
@@ -60,7 +65,4 @@
       // The name of the theme in the theme directory
       'name'    => 'core',
     );
-    /**
-    * Set a base_url to use another than the default calculated
-    */
-    $ly->config['base_url'] = null;
+    

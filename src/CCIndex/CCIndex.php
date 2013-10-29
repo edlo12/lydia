@@ -12,6 +12,8 @@
        public function Index() {   
           global $ly;
           $ly->data['title'] = "The Index Controller";
+          $ly->data['main'] = "<h1>The Index Controller</h1>";
+
        }
 
     } 
